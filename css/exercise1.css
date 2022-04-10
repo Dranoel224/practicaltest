@@ -1,0 +1,39 @@
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+h1:hover {
+    color: brown;
+}
+
+.par1 {
+    color: blue;
+    size: 15px;
+
+}
+
+.par2 {
+    color: green;
+    size: 14px;
+}
+
+.u1 {
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.u2 {
+    color: yellowgreen;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.u3 {
+    color: darkblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    color: brown;
+    list-style: disc;
+}

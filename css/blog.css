@@ -1,0 +1,112 @@
+.blogname {
+    color: navy;
+    background-color: rgba(180, 150, 150, 0.8);
+    top: 50px;
+}
+
+header {
+    top: 50px;
+    height: 80px;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+header nav {
+    float: right;
+}
+
+.navblog a {
+    padding: 10px;
+}
+
+.art1 img {
+    color: black;
+    right: 0px;
+    width: 40%;
+    padding: 10px;
+    /* float: left; */
+}
+
+.art1 p {
+    text-align: left;
+    left: 0px;
+    width: 58%;
+    font-size: 18px;
+    padding: 10px;
+    color: black;
+}
+
+.art1 h3 {
+    color: brown;
+    width: 60%;
+    text-align: center;
+}
+.art2 h3 {
+    color: brown;
+    text-align: center;
+    width: 58%;
+}
+
+.art2 .war {
+    color: black;
+    left: 0px;
+    width: 40%;
+    /* float: left; */
+}
+
+.art2 p {
+    text-align: left;
+    left: 0px;
+    width: 58%;
+    font-size: 18px;
+    padding: 10px;
+    color: black;
+}
+
+.art_img {
+    position: absolute;
+}
+
+.war {
+    position: absolute;
+    padding: 10px;
+    float: left;
+}
+
+
+.media {
+    float: right;
+    position: fixed;
+    bottom: 65px;
+    right: 0px;
+    color: white;
+    padding: 10px;
+}
+
+ul {
+    color: black;
+    font-size: 18px;
+}
+
+body {
+    height: 1500px;
+    /* background-color: rgba(45, 230, 185, 0.2); */
+}
+
+.rd {
+    text-align: center;
+}
+
+style {
+    opacity: 0.2;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(180, 150, 150, 0.8);
+    color: white;
+    text-align: center;
+  }

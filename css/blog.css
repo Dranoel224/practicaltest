@@ -1,11 +1,9 @@
 .blogname {
     color: navy;
     background-color: rgba(180, 150, 150, 0.8);
-    top: 50px;
 }
 
 header {
-    top: 50px;
     height: 80px;
     width: 100%;
     background-color: aquamarine;
@@ -24,7 +22,8 @@ header nav {
     right: 0px;
     width: 40%;
     padding: 10px;
-    /* float: left; */
+    float: left;
+    clear: both;
 }
 
 .art1 p {
@@ -51,7 +50,8 @@ header nav {
     color: black;
     left: 0px;
     width: 40%;
-    /* float: left; */
+    float: left;
+    clear: both;
 }
 
 .art2 p {
@@ -81,6 +81,8 @@ header nav {
     right: 0px;
     color: white;
     padding: 10px;
+    /* width: 60px; */
+    clear: both;
 }
 
 ul {
@@ -90,7 +92,6 @@ ul {
 
 body {
     height: 1500px;
-    /* background-color: rgba(45, 230, 185, 0.2); */
 }
 
 .rd {

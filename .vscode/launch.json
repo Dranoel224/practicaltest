@@ -4,6 +4,20 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "Launch goodfriday.html",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "file": "/Users/ullrichzagata/Desktop/practicaltest/goodfriday.html",
+            "webRoot": "${workspaceFolder}"
+        },
+    {
+        "name": "Launch background.html",
+        "request": "launch",
+        "type": "pwa-chrome",
+        "file": "/Users/ullrichzagata/Desktop/practicaltest/background.html",
+        "webRoot": "${workspaceFolder/practicaltest}"
+    },
     {
         "name": "Launch blog.html",
         "request": "launch",

@@ -1,0 +1,44 @@
+.back1 {
+    height: 500px;
+    width: auto;
+    background: url(../img/MainAfter.webp);
+    background-size: 300px 200px;
+    background-repeat: no-repeat;
+}
+
+.back2 {
+    height: 500px;
+    width: auto;
+    background: url(../img/MainAfter.webp);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.back3 {
+    height: 500px;
+    width: auto;
+    background: url(../img/MainAfter.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+.back4 {
+    height: 500px;
+    width: auto;
+    background: url(../img/MainAfter.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.gradient {
+    height: 150px;
+    width: 300px;
+    background: linear-gradient(red, green, blue);
+}
+
+.gradientrad {
+    height: 150px;
+    width: 300px;
+    background: radial-gradient(red, green, blue);
+    opacity: .5;
+}

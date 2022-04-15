@@ -1,0 +1,74 @@
+.friday_blog {
+    height: 60px;
+    width: 100%;
+    background-size: 60px 100%;
+    background: radial-gradient(white, yellow, black);
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    top: 60px;
+    height: 30px;
+    width: 100%;
+    background-color: red;
+}
+.GoodFriday_img {
+    float: left;
+    width: 30%;
+    clear: both;
+}
+
+.VScode_img {
+    float: left;
+    width: 30%;
+    clear: both;
+}
+
+.goodetailsp {
+    width: 68%;
+    float: left;
+    text-align: justify;
+    padding: 10px;
+    background-size: 300px 700px;
+    background: linear-gradient(green, red, yellow);
+    /* opacity: 0.5; */
+    /* clear: both; */
+}
+
+.vscodetailsp {
+    width: 68%;
+    float: left;
+    text-align: justify;
+    padding: 10px;
+    background-size: cover;
+    background: url(../img/MainAfter.webp) 0 0 no-repeat, url(../img/goodfriday.webp) 0 100% no-repeat;
+    background-position: 0 0, 100% 0%;
+    background-size: 50% 100%, 50% 100%;
+    /* background-repeat: no-repeat; */
+    /* clear: both; */
+}
+
+.goodetails {
+    margin: 10px;
+    padding: 10px;
+    background-size: 300px 700px;
+}
+
+.vscodetails {
+    margin: 10px;
+    padding: 10px;
+    background-size: 300px 700px;
+    background: linear-gradient(green red yellow);
+}
+
+h1 {
+    text-align: center;
+    color: navy;
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* div {
+    background: url(../img/MainAfter.webp) 0 0 no-repeat, url(../img/goodfriday.webp) 0 0 no-repeat;
+} */

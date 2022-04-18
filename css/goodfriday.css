@@ -1,12 +1,17 @@
 .friday_blog {
     height: 60px;
     width: 100%;
-    background-size: 60px 100%;
+    background-size: 100%;
     background: radial-gradient(white, yellow, black);
-    font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
 }
 
+header strong {
+    color: darkred;
+    font-size: xx-large;
+}
 header {
     top: 60px;
     height: 30px;
@@ -41,14 +46,26 @@ header {
     float: left;
     text-align: justify;
     padding: 10px;
-    background-size: cover;
+    /* background-size: cover; */
     background: url(../img/MainAfter.webp) 0 0 no-repeat, url(../img/goodfriday.webp) 0 100% no-repeat;
     background-position: 0 0, 100% 0%;
     background-size: 50% 100%, 50% 100%;
-    /* background-repeat: no-repeat; */
-    /* clear: both; */
 }
 
+
+/* .vscodetailsp::after {
+    content: "";
+    background: url(../img/MainAfter.webp) 0 0 no-repeat, url(../img/goodfriday.webp) 0 0 no-repeat;
+    background-position: 0 0, 100% 0%;
+    background-size: 50% 100%, 50% 100%;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 100;
+} */
 .goodetails {
     margin: 10px;
     padding: 10px;
@@ -69,6 +86,20 @@ h1 {
     font-weight: 500;
 }
 
+nav {
+    position: absolute;
+    right: 0px;
+}
+
+nav a {
+    padding: 10px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    height: 10px;
+    width: 50px;
+    border-color: blue;
+    background-color: aqua;
+}
 /* div {
     background: url(../img/MainAfter.webp) 0 0 no-repeat, url(../img/goodfriday.webp) 0 0 no-repeat;
 } */

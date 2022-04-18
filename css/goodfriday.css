@@ -1,55 +1,64 @@
 .friday_blog {
     height: 60px;
     width: 100%;
-    background-size: 100%;
     background: radial-gradient(white, yellow, black);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 header strong {
     color: darkred;
     font-size: xx-large;
 }
-header {
+/* header {
     top: 60px;
     height: 30px;
     width: 100%;
     background-color: red;
-}
+} */
 .GoodFriday_img {
     float: left;
     width: 30%;
-    clear: both;
 }
+
+.GoodFriday_img img {
+    width: 100%;
+}
+
 
 .VScode_img {
     float: left;
     width: 30%;
-    clear: both;
+}
+.VScode_img img {
+    width: 100%;
 }
 
 .goodetailsp {
-    width: 68%;
-    float: left;
+    width: 67%;
+    /* display: flex; */
     text-align: justify;
+    padding-left: 10px;
     padding: 10px;
-    background-size: 300px 700px;
     background: linear-gradient(green, red, yellow);
-    /* opacity: 0.5; */
-    /* clear: both; */
+}
+
+.goodetailsp h1 {
+    align-items: center;
 }
 
 .vscodetailsp {
-    width: 68%;
+    width: 67%;
+    /* display: flex; */
     float: left;
     text-align: justify;
-    padding: 10px;
-    /* background-size: cover; */
-    background: url(../img/MainAfter.webp) 0 0 no-repeat, url(../img/goodfriday.webp) 0 100% no-repeat;
+    padding-left: 10px;
+    margin-left: 10px;
+    background: url(../img/MainAfter.webp) no-repeat, url(../img/goodfriday.webp) no-repeat;
     background-position: 0 0, 100% 0%;
-    background-size: 50% 100%, 50% 100%;
+    background-size: 50%, 50%;
 }
 
 
@@ -67,16 +76,27 @@ header {
     z-index: 100;
 } */
 .goodetails {
-    margin: 10px;
-    padding: 10px;
-    background-size: 300px 700px;
+    
+    display: flex;
+    /* margin: 5px;
+    padding: 5px; */
+    max-height: 300px;
+    overflow: hidden;
+    border: solid;
+    border-color: blue;
+    box-shadow: 1px 2px 3px black;
 }
 
 .vscodetails {
-    margin: 10px;
-    padding: 10px;
-    background-size: 300px 700px;
+    /* margin: 10px;
+    padding: 10px; */
     background: linear-gradient(green red yellow);
+    display: flex;
+    max-height: 300px;
+    overflow: hidden;
+    border: solid;
+    border-color: blue;
+    box-shadow: 1px 2px 3px red;
 }
 
 h1 {
@@ -100,6 +120,3 @@ nav a {
     border-color: blue;
     background-color: aqua;
 }
-/* div {
-    background: url(../img/MainAfter.webp) 0 0 no-repeat, url(../img/goodfriday.webp) 0 0 no-repeat;
-} */
